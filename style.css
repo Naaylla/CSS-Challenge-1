@@ -1,0 +1,47 @@
+*{
+    background-color: #0fcf90;
+}
+h1{
+    color: #b9105e;
+}
+h2{
+    color: orange;
+}
+ul{
+    color: #6495ED;
+}
+p{
+    background-color: yellow;
+}
+input[type="checkbox"]{
+    box-shadow: 0 0 0 3px red;
+  }
+input[type="text"], textarea {
+
+    border: 3px solid red;
+  }
+input[type=password] {
+    border: 3px solid red;
+}
+.hello{
+    background-color: white;
+}
+#special{
+    border: 2px solid rgb(13, 13, 182);
+}
+div p{
+    font-size: 25px;
+}
+input[type="text"] {
+    background-color: gray;
+}
+div:nth-of-type(3)>p{
+    background-color: pink;
+}
+div:nth-of-type(3)>p:nth-of-type(2){
+    border: 5px solid white;
+}
+div em {
+    color: white;
+    font-size: 20px;
+}
